@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    width: 90%;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo{
+    width: 10%;
+    margin: 25px 0 1em 0;
+    padding: 0 0 0 0;
+}
+
+nav{
+    width: 70%;
+    text-align: center;
+}
+
+nav a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 0 5em 0 0em;
+    margin-bottom: 1em;
+}
+
+header figure{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+header figure img{
+    width: 100%;
+}
+
+figcaption{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(29, 123, 29, 0.6);
+    position: absolute;
+    bottom: 6px;
+    width: 100%;
+}
+
+figcaption h5{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em 0 1em 1em;
+    margin: 0 0 0 0;
+}
+
+figcaption a{
+    text-decoration: none;
+    background-color: rgb(82 169 28);
+    opacity: 1;
+    border-radius: 0.4em; 
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0.3em 0.3em 0.3em 0.3em;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figcaption .fas{
+    transform: rotate(90deg);
+}
+
+main{
+    display: flex;
+    position: relative;
+    border-bottom: rgb(82 169 28) solid;
+}
+
+main .fas{
+    position: absolute;
+    bottom: -17px;
+    transform: rotate(180deg);
+    right: 50%;
+    color: rgb(82 169 28);
+    font-size: xx-large;
+}
+
+article{
+    width: 65%;
+}
+
+article div{
+    display: flex;
+    align-items: center;
+    margin : 1em 0 1em 0;
+}
+
+article div img{
+    width: 30px;
+    height: 30px;
+    border: black solid 1px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+article div h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding-left: 0.5em;
+}
+
+article p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(82 169 28);
+    width: 35%;
+    margin : 1em 0 0 1em;
+}
+
+aside .logo{
+    width: 50%;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+aside h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+aside p{
+    color: white;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1em 0 1em;
+    margin : 0.3em;
+}
+
+aside a .fab{
+    color: white;
+    font-size: xx-large;
+    margin : 2em 0 1em 0;
+    padding: 0 0.4em 0 0.4em;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer section{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 1em;
+}
+
+section h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.sectionsColonnes{
+    display: flex;
+}
+
+footer section form{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+footer figure{
+    margin: 0;
+    padding: 0.2em;
+    width: 90px;
+}
+
+.galerie figure{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0.2em;
+}
+
+.galerie img{
+    height: 80px;
+    width: auto;
+}
+
+section input{
+    width: 200px;
+    height: 40px;
+    margin: 0.3em;
+    font-size: medium;
+}
+
+.colonneDEUX input{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(82 169 28);
+    border: none;
+    color: white;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0.3em 0;
+}
+
