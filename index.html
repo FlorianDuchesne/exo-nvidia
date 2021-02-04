@@ -9,15 +9,19 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="logo.png" alt="logo">
-        <nav>
+        <img class="logo" src="img/logo.png" alt="logo">
+        <nav id="myLinks">
             <a href="produits">Produits</a>
             <a href="gamme">Gamme RTX</a>
             <a href="supports">Supports et pilotes</a>
             <a href="contact">Contact</a>
         </nav>
+        <div id="burger">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i></div>
+            </a>
         <figure>
-            <img src="image1.jpg" alt="RTX 2060">
+            <img src="img/image1.jpg" alt="RTX 2060">
             <figcaption>
                 <h5>Plus d'informations sur la gamme GoForce RTX</h5>
                 <a href="lien">Découvrir <i class="fas fa-sort-up"></i>
@@ -29,7 +33,7 @@
     <main>
         <article>
             <div>
-                <img src="logo_titre.png">
+                <img src="img/logo_titre.png">
                 <H2>La puissance, tout simplement.</H2>
             </div>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel facilisis metus. Integer scelerisque ante orci, ac porta velit ultrices consequat. Mauris aliquet vel dolor sed mattis. Sed venenatis lacus sem, eget rutrum lacus sagittis et. Integer quis pretium sapien, euismod luctus magna. Proin mollis gravida mauris id consequat. Duis at mattis tortor. Vivamus turpis dolor, dictum nec aliquam nec, luctus posuere sem. Sed eu euismod nulla. Maecenas sit amet diam sed arcu mollis gravida. Mauris eget lectus vitae lacus dignissim lacinia vel et ante. Nam feugiat, massa finibus vestibulum pharetra, massa mi iaculis tellus, id rutrum turpis justo at ex.</p>
@@ -38,10 +42,10 @@
         </article>
         <aside>
             <h3>A propos</h3>
-            <img class="logo" src="logo_aside.png" alt="logo">
+            <img class="logo" src="img/logo_aside.png" alt="logo">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur qui asperiores ex obcaecati deserunt?</p>
             <p> Voluptas dolorem mollitia consectetur omnis eos repellat modi nemo repudiandae eveniet, nobis non quisquam. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <p class="last">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
             <div>
                 <a href="facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="twitter"><i class="fab fa-twitter"></i></a>
@@ -77,27 +81,28 @@
             <h4>Galerie</h4>
             <div class="sectionsColonnes">
                 <figure>
-                    <img src="galerie1.jpg" alt="image produit">
+                    <img src="img/galerie1.jpg" alt="image produit">
                 </figure>
                 <figure>
-                    <img src="galerie2.jpg" alt="image produit">
+                    <img src="img/galerie2.jpg" alt="image produit">
                 </figure>
                 <figure>
-                    <img src="galerie3.jpg" alt="image produit">
+                    <img src="img/galerie3.jpg" alt="image produit">
                 </figure>
                 <figure>
-                    <img src="galerie4.jpg" alt="image produit">
+                    <img src="img/galerie4.jpg" alt="image produit">
                 </figure>
             </div>    
         </section>
         <section>
             <h4>Partenaires</h4>
-            <div class="sectionsColonnes">
-                <a href="intel"><img src="intel.png" alt="logo intel"></a>
-                <a href="asus"><img src="Asus.png" alt="logo asus"></a>
-                <a href="ea"><img src="EA.png" alt="logo EA"></a>
+            <div class="sectionsColonnes partenaires">
+                <a href="intel"><img src="img/intel.png" alt="logo intel"></a>
+                <a href="asus"><img src="img/Asus.png" alt="logo asus"></a>
+                <a href="ea"><img src="img/EA.png" alt="logo EA"></a>
             </div>    
         </section>
     </footer>
+    <script src="nvidia.js"></script>
 </body>
 </html>
